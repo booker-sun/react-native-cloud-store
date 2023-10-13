@@ -4,7 +4,6 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import IOSKVScreen from './screens/ioskv.screen';
 import IOSICloudScreen from './screens/iosicloud.screen';
 import IndexScreen from './screens/index.screen';
-import ICloudIssueDemoScreen from './screens/multldemo.screen';
 
 const Stack = createNativeStackNavigator();
 const App = () => {
@@ -30,13 +29,6 @@ const App = () => {
           component={IOSICloudScreen}
           options={{
             title: 'iCloud Demo',
-          }}
-        />
-        <Stack.Screen
-          name={'icloud-issue'}
-          component={ICloudIssueDemoScreen}
-          options={{
-            title: 'issue iCloud Demo',
           }}
         />
       </Stack.Navigator>
