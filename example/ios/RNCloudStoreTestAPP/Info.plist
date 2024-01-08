@@ -39,12 +39,12 @@
 	<string></string>
 	<key>NSUbiquitousContainers</key>
 	<dict>
-		<key>iCloud.org.reactjs.native.example.RNCloudStoreTestAPP</key>
+		<key>iCloud.com.you-zhe.cloud.storage.go</key>
 		<dict>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>
 			<key>NSUbiquitousContainerName</key>
-			<string>RNCloudStoreTest</string>
+			<string>QAQAICloud</string>
 			<key>NSUbiquitousContainerSupportedFolderLevels</key>
 			<string>Any</string>
 		</dict>
